@@ -1,0 +1,12 @@
+{
+  "name": "redux-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jurrish/redux-demo.git",
+  "author": "Frank Iriarte <jurrish@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^20.0.4",
+    "redux": "^3.7.2"
+  }
+}
