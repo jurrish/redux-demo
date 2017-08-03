@@ -21,7 +21,14 @@ var initialState = 0;
 let reducer = (state=initialState, action) => {
   let { type, payload } = action;
 
-  switch(type){
+  switch(type) {
+
+    case 'INC':
+      return state + 1
+
+    case 'DEC':
+      return state - 1
+
     default:
       return state
   }
